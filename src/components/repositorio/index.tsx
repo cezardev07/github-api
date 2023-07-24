@@ -32,7 +32,7 @@ export const Repositorio = ({props}: any) => {
                     <div className="status-repo">
                         <div className="language">
                             <span>
-                                <Language props={props.language}></Language>
+                                <Language color={props.language}></Language>
                                 {props.language}
                             </span>
                             {

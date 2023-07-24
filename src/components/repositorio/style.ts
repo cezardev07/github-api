@@ -75,14 +75,14 @@ export const Language = styled.div`
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background: ${({props}: any) => {
-        if (props === "TypeScript" || props === "Python") {
+    background: ${({color}: any) => {
+        if (color === "TypeScript" || color === "Python") {
             return "#3178c6";
-          } else if (props === "HTML") {
+          } else if (color === "HTML") {
             return "#e34c26";
-          } else if (props === "JavaScript") {
+          } else if (color === "JavaScript") {
             return "#f1e05a";
-          } else if (props === "CSS") {
+          } else if (color === "CSS") {
             return "#563d7c";
           } else {
             return "#000";
