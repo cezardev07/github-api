@@ -1,27 +1,40 @@
-# React + TypeScript + Vite
+<img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" width="100%"/>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### UI clone github 
 
-Currently, two official plugins are available:
+Essa aplicação oferece uma "experiência fiel ao GitHub", permitindo que os usuários explorem os repositórios de qualquer usuário desejado através da integração com a API oficial do GitHub. Desenvolvido com React, Vite, TypeScript e Styled-Components, o projeto tem como objetivo principal fornecer um ambiente dinâmico e responsivo para diferentes telas, tornando-se totalmente funcional e agradável em dispositivos desktop, tablets e mobiles.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+imagem do projeto
+<img src="https://github.com/cezardev07/github-api/blob/main/public/pc.png?raw=true" width="100%"/>
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Principais Recursos e Funcionalidades:
 
-- Configure the top-level `parserOptions` property like this:
+Pesquisa de Repositórios: A aplicação permite que os usuários busquem os repositórios de qualquer usuário desejado. Basta inserir o nome do usuário e todos os seus repositórios públicos serão exibidos instantaneamente, assim como o exemplo abaixo, onde pesquisamos e exibimos os repositórios públicos do desenvolvedor Filipe Deschamps.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+<img src="https://github.com/cezardev07/github-api/blob/main/public/search.png?raw=true" width="100%"/>
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+Responsividade para Todas as Telas: Independentemente do dispositivo utilizado, a aplicação se ajusta perfeitamente ao tamanho da tela, permitindo que os usuários desfrutem de sua funcionalidade completa em qualquer lugar.
+
+
+<img src="https://github.com/cezardev07/github-api/blob/main/public/mobile.png?raw=true" width="100%"/>
+
+
+O projeto concentra-se em demonstrar e aprofundar os conceitos fundamentais de desenvolvimento com React e TypeScript.
+
+- É importante ressaltar que este projeto é voltado exclusivamente para fins educacionais e de aprendizado.
+
+### get started project angular
+
+    # clone o repositorio
+    git clone < repositorio >
+
+    # open project
+    cd ./ < name project >
+
+    # install all dependencias
+    npm install
+
+    # started application
+    npm run dev
