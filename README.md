@@ -25,7 +25,7 @@ O projeto concentra-se em demonstrar e aprofundar os conceitos fundamentais de d
 
 - É importante ressaltar que este projeto é voltado exclusivamente para fins educacionais e de aprendizado.
 
-### get started project angular
+### get started project
 
     # clone o repositorio
     git clone < repositorio >
